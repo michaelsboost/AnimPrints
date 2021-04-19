@@ -1,0 +1,71 @@
+Name: AnimaPrints
+Description: A simple game that teaches you how to identify animal footprints
+Images: Footer => SVG's that are used to launch footprints (Hold vectors to learn the shape of the animal's footprint and raster's for real life pictures for game)
+Resources: Images (vectors = footers and rasters = display), Libraries = Normalize, No Sound
+Platforms: Web
+
+Animals In Footer: 
+
+Birds: 
+Blue Heron
+Grouse
+Wild Turkey
+Pheasant
+Quail
+Bald Eagle
+Mallard Duck
+Canadian Goose
+Gull
+
+Herptiles: 
+Alligator
+
+Cats: 
+Bobcat
+Domestic Cat
+Canadian Lynx
+Cougar
+Panther
+
+Dogs: 
+Red Fox
+Domestic Dog
+Coyote
+Gray Wolf
+
+Hoofed: 
+White-Tailed Deer
+Mountain Goat
+Horse
+Buffalo
+Elk
+Caribou
+Moose
+
+Bears: 
+Black Bear
+Grizzly Bear
+
+Rodents/Other Mammals: 
+Cottontail Rabbit
+Squirrel
+Snowshow Hare
+Jackrabbit
+Muskrat
+White-Footed Mouse
+Weasel
+Beaver
+Otter
+Raccoon
+Marten
+Porcupine
+Badger
+Fisher
+Mink
+Skunk
+Woodchuck
+Opossum
+Armadillo = 47 animals
+
+47 * 5 = $235 for just animals face/footer picture
+47 * 15 = $705 via vectorstock.com

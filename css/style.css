@@ -1,0 +1,113 @@
+/*
+Version: 0.0.1
+AnimaPrints, copyright (c) by Michael Schwartz and others
+Distributed unde the MIT license: https://github.com/michaelsboost/AnimaPrints/blob/gh-pages/LICENSE
+
+This is AnimaPrints (https://michaelsboost.github.io/AnimaPrints), A simple game that teaches you how to identify animal footprints
+*/
+
+/* fill html and body to fill page */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* default background color */
+  background: #ccc;
+  /* color if users answer is correct */
+  /* background: #99ffd0; */
+  /* color if users answer is incorrect */
+  /* background: #ffb6d8; */
+}
+
+/* 
+center elements x and y
+via table and table-cell
+*/
+.table {
+  display: table;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: calc(100% - 40%);
+  text-align: center;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* sets animal prints image's default height */
+#animalprint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#animalprint img {
+  height: 100%;
+}
+
+/* footer background color */
+.footer, 
+.footer ul li, 
+.footer ul li div {
+  background-color: #fff;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  overflow: auto;
+  white-space: nowrap;
+}
+.footer ul {
+  list-style: none;
+  height: calc(100% - 25px);
+  padding: 0;
+  margin: 0;
+}
+.footer ul li {
+  cursor: default;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  height: 95%;
+}
+.footer ul li div {
+  padding: 5px 0;
+}
+.footer ul li img {
+  cursor: pointer;
+  height: 100%;
+/*
+  border-right: 2px solid #666;
+  padding: 0 1em;
+*/
+}
+
+/* misc */
+.topleft, .topright {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  font-size: 3em;
+  margin: 15px;
+  z-index: 1;
+}
+.topleft svg, .topright svg {
+  width: 80px;
+}
+.topleft svg path, .topright svg path {
+  fill: #333;
+}
+.topleft {
+  left: 0;
+}
+.topright {
+  right: 0;
+}
