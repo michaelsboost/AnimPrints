@@ -154,7 +154,6 @@ function randomAnimal() {
       anim = 'armadillo';
       break;
   }
-  console.log('Animal is ' + anim);
   $('#animalprint').html('<img src="'+ $(".footer ul li[data-name="+ anim +"] img").attr('data-foot') +'" id="'+ anim +'">');
 }
 randomAnimal();
