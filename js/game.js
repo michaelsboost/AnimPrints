@@ -1,8 +1,8 @@
 // Version: 0.0.1
-// AnimaPrints, copyright (c) by Michael Schwartz and others
-// Distributed unde the MIT license: https://github.com/michaelsboost/AnimaPrints/blob/gh-pages/LICENSE
+// AnimPrints, copyright (c) by Michael Schwartz and others
+// Distributed unde the MIT license: https://github.com/michaelsboost/AnimPrints/blob/gh-pages/LICENSE
 // 
-// This is AnimaPrints (https://michaelsboost.github.io/AnimaPrints), A simple game that teaches you how to identify animal footprints
+// This is AnimPrints (https://michaelsboost.github.io/AnimPrints), A simple game that teaches you how to identify animal footprints
 
 var anim, gameMode = false;
 var audioElement   = document.createElement('audio');
