@@ -33,7 +33,7 @@ $('.footer img[data-foot]').on('click', function() {
 $('.footer [data-init]').on('click', function() {
   gameMode = true;
   $(this).remove();
-}).trigger('click');
+});
 
 // generate a random number
 function randomNumber(n) {
